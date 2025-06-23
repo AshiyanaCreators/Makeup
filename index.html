@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1No Sneha's Makeup Studio & academy | Premium Makeup & Nail Services</title>
+    <title>Sneha Agarwal Makeup's Studio & Academy  | Premium Makeup & Nail Services</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script>
@@ -102,6 +102,47 @@
             border-color: var(--accent);
             box-shadow: 0 0 0 0.2rem rgba(183, 110, 121, 0.25);
         }
+
+        .slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img,
+.slide video {
+    width: 100%;
+    height: auto;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
     </style>
 </head>
 <body>
@@ -111,7 +152,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
                     <a href="#" class="text-xl font-bold text-gray-900" style="font-family: 'Playfair Display', serif;">
-                        1No Sneha's Makeup Studio & academy
+                        Sneha Agarwal Makeup's Studio & Academy 
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
@@ -283,32 +324,40 @@
                     </div>
                 </div>
                 <div>
-                    <h2 class="text-3xl font-bold text-gray-900 mb-6">About Blissful Bridal</h2>
-                    <p class="text-lg text-gray-600 mb-6">Blissful Bridal was founded with one mission: to make every bride feel like the most beautiful version of herself on her wedding day. Our team of certified professionals combines technical expertise with artistic vision to create looks that enhance your natural beauty.</p>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">About Sneha Agarwal Makeup's Studio & Academy </h2>
+                    <p class="text-lg text-gray-600 mb-6">Sneha Agarwal Makeup's Studio & Academy was built on a passion for empowering individuals through the transformative art of makeup. With a mission to bring out every client's inner confidence and elegance, we blend creativity with professional technique to craft stunning, camera-ready looks for every occasion. At our studio, beauty is not just applied—it’s revealed. <br><br>
+
+Whether you're a bride-to-be, a fashion enthusiast, or an aspiring artist, our team of certified experts and educators is dedicated to helping you shine at every stage of your beauty journey.</p>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
-                            <span class="text-gray-700">Certified makeup artists with 5+ years experience</span>
+                            <span class="text-gray-700">Professionally trained artists with 5+ years of experience</span>
                         </li>
                         <li class="flex items-start">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
-                            <span class="text-gray-700">Premium quality, vegan-friendly products</span>
+                            <span class="text-gray-700">Cruelty-free, premium-quality, skin-safe products</span>
                         </li>
                         <li class="flex items-start">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
-                            <span class="text-gray-700">Customizable looks tailored to your vision</span>
+                            <span class="text-gray-700">Personalized makeup and hair styling services</span>
                         </li>
                         <li class="flex items-start">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
-                            <span class="text-gray-700">Stress-free experience with wedding day coordination</span>
+                            <span class="text-gray-700">Complete bridal packages with stress-free planning and execution</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-gray-700"> Hands-on makeup training at our certified academy</span>
                         </li>
                     </ul>
                     <div class="flex space-x-4">
@@ -342,7 +391,7 @@
                 </div>
                 
                 <div class="group relative overflow-hidden rounded-lg h-64">
-                    <img src="https://images.unsplash.com/photo-1596703265403-257f6f706146?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                    <img src="Images/H738be618430b49b1baca18e50f246d64b.avif" 
                          alt="Nail Extensions" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -354,7 +403,7 @@
                 </div>
                 
                 <div class="group relative overflow-hidden rounded-lg h-64">
-                    <img src="https://images.unsplash.com/photo-1596703265401-496cce0b8d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
+                    <img src="Images/f4f35d97b37d635a01b7748ef27446fa.jpg" 
                          alt="Bridal Makeup 2" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -366,7 +415,7 @@
                 </div>
                 
                 <div class="group relative overflow-hidden rounded-lg h-64">
-                    <img src="https://images.unsplash.com/photo-1596704017256-d3a95c4ce088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                    <img src="Images/images.jpg" 
                          alt="Bridal Hair" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -390,7 +439,7 @@
                 </div>
                 
                 <div class="group relative overflow-hidden rounded-lg h-64">
-                    <img src="https://images.unsplash.com/photo-1596704018163-97bb078ed00a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                    <img src="Images/8ac6690f-2889-4101-83d2-a2343439e26e_480x480.webp" 
                          alt="Bridal Party" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -403,7 +452,7 @@
             </div>
             
             <div class="text-center mt-12">
-                <a href="https://instagram.com" target="_blank" class="px-6 py-3 rounded-md bg-gradient-to-r from-pink-500 to-purple-600 text-white inline-flex items-center">
+                <a href="https://www.instagram.com/sneha.agarwal.makeup.artist/" target="_blank" class="px-6 py-3 rounded-md bg-gradient-to-r from-pink-500 to-purple-600 text-white inline-flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                     </svg>
@@ -412,6 +461,77 @@
             </div>
         </div>
     </section>
+
+    <!-- Our Work Section -->
+<section id="our-work" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Work</h2>
+            <p class="text-lg text-gray-600">Explore our portfolio of stunning bridal looks and nail art</p>
+        </div>
+        
+        <div class="slider">
+            <div class="slides">
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <video controls>
+                        <source src="Images/IMG_1798.MOV" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Slide 5 -->
+                <div class="slide">
+                    <video controls>
+                        <source src="Images/IMG_2292.MOV" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="Images/_DS C1427 copy.jpg" alt="Bridal Look 1">
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="Images/_DSC1 430 copy.jpg" alt="Bridal Look 2">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="Images/_DSC1428 copy.jpg" alt="Bridal Look 3">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="Images/_DSC1432 copy.jpg" alt="Bridal Look 3">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="Images/_DSC1435 copy.jpg" alt="Bridal Look 3">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="Images/_DSC1523 copy.jpg" alt="Bridal Look 3">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="Images/_DSC1529 copy.jpg" alt="Bridal Look 3">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="Images/_DSC1531 copy.jpg" alt="Bridal Look 3">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="Images/_DSC1541 copy.jpg" alt="Bridal Look 3">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="Images/_DSC1547 copy.jpg" alt="Bridal Look 3">
+                </div>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+</section>
 
     <!-- Testimonials Section -->
     <section class="py-20 bg-gray-50">
@@ -638,7 +758,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Email</h3>
-                    <p class="text-gray-600 mb-2">1nosnehamakeupstudio.ssw@gmail.com</p>
+                    <p class="text-gray-600 mb-2">snehamakeupstudio.ssw@gmail.com</p>
                     <p class="text-sm text-gray-500">Response within 24 hours</p>
                 </div>
                 
@@ -663,7 +783,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">1No Sneha's Makeup Studio & academy</h3>
+                    <h3 class="text-xl font-bold mb-4">Sneha Agarwal Makeup's Studio & Academy </h3>
                     <p class="text-gray-400">Making brides feel beautiful on their most special day since 2015.</p>
                 </div>
                 <div>
@@ -689,12 +809,12 @@
                 <div>
                     <h4 class="font-bold text-lg mb-4">Connect</h4>
                     <div class="flex space-x-4 mb-4">
-                        <a href="https://www.facebook.com/share/1C9E7b41M9/" class="text-gray-400 hover:text-white transition">
+                        <a href="https://m.facebook.com/profile.php?id=61573115489173&name=xhp_nt__fb__action__open_user" class="text-gray-400 hover:text-white transition">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
                             </svg>
                         </a>
-                        <a href="https://www.instagram.com/1no.sneha.makeup.artist/" class="text-gray-400 hover:text-white transition">
+                        <a href="https://www.instagram.com/sneha.agarwal.makeup.artist/" class="text-gray-400 hover:text-white transition">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                             </svg>
@@ -708,7 +828,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-                <p>&copy; 2025 1No Sneha's Makeup Studio & academy. All rights reserved.| Powered by Smart Software World</p>
+                <p>&copy; 2025 Sneha Agarwal Makeup's Studio & Academy . All rights reserved.| Powered by Smart Software World</p>
             </div>
         </div>
     </footer>
@@ -812,6 +932,31 @@
                 card.classList.remove('transform', 'scale-105');
             });
         });
+
+        let currentSlide = 0;
+
+function showSlide(index) {
+    const slides = document.querySelector('.slides');
+    const totalSlides = document.querySelectorAll('.slide').length;
+    
+    if (index >= totalSlides) {
+        currentSlide = 0;
+    } else if (index < 0) {
+        currentSlide = totalSlides - 1;
+    } else {
+        currentSlide = index;
+    }
+    
+    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+function changeSlide(direction) {
+    showSlide(currentSlide + direction);
+}
+
+// Automatically show the first slide
+showSlide(currentSlide);
+
     </script>
 </body>
 </html>
